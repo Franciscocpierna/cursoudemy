@@ -7,7 +7,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Locale.setDefault(Locale.US);
+		//Locale.setDefault(Locale.US);
 		String n;
 		Scanner sc = new Scanner(System.in);
 		/*String x;
@@ -15,7 +15,8 @@ public class Main {
         System.out.println("voce digitou o valor "+x);
         sc.close();
           */
-		/*int x;
+	/*
+		int x;
 		x= sc.nextInt();
 		System.out.println("voce digitou o valor "+x);
 		sc.close();*/
