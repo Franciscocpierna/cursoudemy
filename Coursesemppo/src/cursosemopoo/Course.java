@@ -46,7 +46,7 @@ public class Course {
         }
           
         sc.close();
-
+        
 	}
 
 }
