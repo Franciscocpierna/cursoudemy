@@ -16,7 +16,8 @@ public class Program {
 	   produto.precoprod = sc.nextDouble();
 	   System.out.print("Quantidade no Estoque: ");
 	   produto.quantidade = sc.nextInt();
-	   System.out.println(produto.nomeprod+ ","+ produto.precoprod +","+produto.quantidade);
+	  // System.out.println(produto.nomeprod+ ","+ produto.precoprod +","+produto.quantidade);
+	   System.out.println(produto);
 	   sc.close();
 	   
 	}
