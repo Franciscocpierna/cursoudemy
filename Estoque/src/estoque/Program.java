@@ -17,9 +17,19 @@ public class Program {
 	   System.out.print("Quantidade no Estoque: ");
 	   produto.quantidade = sc.nextInt();
 	  // System.out.println(produto.nomeprod+ ","+ produto.precoprod +","+produto.quantidade);
-	   System.out.println(produto);
+	   System.out.println();
+	   System.out.println("Dados do Produto: "+produto);
+	   System.out.println();
+	   System.out.println("Entre com o numero do Produto para ser adicionado ao estoque  ");
+	   int numberadd = sc.nextInt();
+	   produto.addproduto(numberadd);
+	   System.out.println();
+	   System.out.println("Dados do Produto atualizado: "+produto);
+	   System.out.println("Entre com o numero do Produto para ser removido do estoque  ");
+	   int numberremo = sc.nextInt();
+	   produto.removeProducts(numberremo);
+	   System.out.println("Dados do Produto atualizado: "+produto); 
 	   sc.close();
-	   
 	}
 
 }
