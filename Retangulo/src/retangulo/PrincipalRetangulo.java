@@ -13,10 +13,15 @@ public class PrincipalRetangulo {
 		System.out.println("Area  Largura and Altura:");
 		retangulo.ladoMaior = sc.nextDouble();
 		retangulo.ladoMenor = sc.nextDouble();
+		//retangulo.status =1;
 		System.out.println("Dados do Retangulo atualizado: "+retangulo);
-		double area;
-		System.out.println("Dados do Retangulo da área: "+retangulo.area());
-
+		retangulo.status =3;
+		//System.out.println("Dados do Retangulo da área: "+retangulo.area());
+	   //retangulo.status=3;
+		System.out.println("Dados do Retangulo da diagonal: "+retangulo.diagonal());
+		//retangulo.status=2;
+		//System.out.println("Dados do Retangulo da Perimetro: "+retangulo.diagonal());
+		
 	}
-
+      
 }

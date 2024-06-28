@@ -15,7 +15,7 @@ public class Produto {
     }
     
     public void removeProducts(int quantidade) {
-        this.quantidade -= quantidade; // igual cmentario acima	
+        this.quantidade -= quantidade; // igual comentario acima	
     }
     
     public void addproduto(int number) {
