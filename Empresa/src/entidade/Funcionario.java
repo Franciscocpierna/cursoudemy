@@ -14,16 +14,15 @@ public class Funcionario {
 	}
 	
 	public void salarioNovo(double porcentagem) {
-		this.salarioBruto=salarioBruto*((100+porcentagem)/100);
+		this.salarioBruto=this.salarioBruto*((100+porcentagem)/100)-imposto;
 		
 	}
 	
 	  public String toString() {
-	    	 return nome
-	         + ", Salario Liquido $ "
-	         +String.format("%.2f",salarioLiquido)
-	         +" Salário Novo : $ "
-	         +String.format("%.2f",salarioBruto);
+	    	 return "Porcentagem: "
+	         + String.format("A porcentagem inclusa no Sálario é %.2f",porcentagem)
+	         +"\nNome e Salário Novo : "
+	         + nome + " , $  "+String.format("%.2f",salarioBruto);
 	        
 	    }
 
