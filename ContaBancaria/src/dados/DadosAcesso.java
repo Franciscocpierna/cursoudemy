@@ -9,11 +9,18 @@ public class DadosAcesso {
   public DadosAcesso() {
 		
 	}
-  public DadosAcesso(int conta, String name, double saldoAtual) {
+  public DadosAcesso(int conta, String name, double inicialDeposito) {
 	this.conta = conta;
 	this.name = name;
-	this.saldoAtual = saldoAtual;
-}
+	//this.saldoAtual = saldoAtual;
+	addDeposito(inicialDeposito);
+ }
+  public DadosAcesso(int conta, String name) {
+		this.conta = conta;
+		this.name = name;
+		 
+		
+  }		
 	public int getConta() {
 		return conta;
 	}
@@ -48,7 +55,7 @@ public class DadosAcesso {
 	                         + " , nome " 
 	                         + name 
 	                         + ", saldoAtual $ " 
-	                         + saldoAtual;
+	                         + String.format("%.2f",saldoAtual);
 	}
 	  
 	  
