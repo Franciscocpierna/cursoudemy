@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 import produto.Product;
 
-
 public class Main {
 
 	public static void main(String[] args) {
