@@ -10,7 +10,7 @@ public class Main {
 			System.out.println(vect[i]);
 		}
 
-		for (String apelido : vect) {
+		for (String apelido : vect) {    //usando a tecnica coleções mesmo resultado do FOR acima
 			System.out.println(apelido);
 		}
 
