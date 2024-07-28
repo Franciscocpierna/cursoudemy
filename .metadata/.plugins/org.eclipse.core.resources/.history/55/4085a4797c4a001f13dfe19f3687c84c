@@ -1,0 +1,13 @@
+package boxingunboxing;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int x = 20; // aloca uma caixa na menoria stack uma caixa com 20
+		Object obj = x; //objeto aponta para uma referencia a 20 na na memopria Heap
+		System.out.println(obj); 
+        int y = (int )obj;
+        System.out.println(y);
+	}
+
+}

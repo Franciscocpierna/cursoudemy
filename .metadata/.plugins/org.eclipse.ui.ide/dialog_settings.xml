@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="380"/>
+		<item key="DIALOG_Y_ORIGIN" value="185"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\UltaEmojiCombat"/>
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\aula14a"/>
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\pessoa"/>
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\Aula14"/>
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\Aula13"/>
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\Aula12"/>
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\Aula011"/>
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\Aula7"/>
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\Aula06"/>
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\Aula05"/>
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\Aula4"/>
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\Aula3"/>
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\Aula02"/>
+			<item value="C:\java_projeto\jdk_1502\cursopoojava\ProjetoPessoas"/>
+		</list>
+	</section>
+</section>

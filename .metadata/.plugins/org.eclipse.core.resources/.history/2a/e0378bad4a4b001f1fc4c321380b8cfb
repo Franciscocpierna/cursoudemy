@@ -1,0 +1,23 @@
+package listinterface;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<>(); // List é do tipo Interface e tem que ser implementada por uma classe no caso ArrayList poderia ser outra
+        list.add("Maria");
+        list.add("Alex");
+        list.add("Bob");
+        list.add("Anna");
+        list.add(2,"Marco");
+        list.remove(4);
+        for (String x: list) {
+        	System.out.println(x);
+        	
+        } 
+	}
+	
+
+}

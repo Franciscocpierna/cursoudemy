@@ -1,0 +1,24 @@
+package quarto;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class QuartoAlugado {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		int n =4;
+		String[] nome = new String[n];
+		String[] email = new String[n];
+		int[] quarto = new int[n];
+		while (n > 0 && n<11) { 
+		  System.out.print("Entre co o número de alugadores:");	
+		  n = sc.nextInt();
+		  if (n> 10 || n<0) {
+			  System.out.println("Digite um nr entre 1 e 10");
+		  }
+		}
+}
+}

@@ -1,0 +1,10 @@
+package quarto;
+
+public class QuartoAlugado {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
