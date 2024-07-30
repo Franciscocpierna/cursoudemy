@@ -47,7 +47,7 @@ public class Funcionarios {
 			 //System.out.println("o funcionário id " +func[z].getId()+" Nome: "+func[z].getNome());
 			// System.out.printf("salario Atual: %.2f%n", func[z].getSalario());
 		 }else {
-			 System.out.println("Esse Funcionario não existe: ");
+			 System.out.println("Esse Funcionario não existe: ");  
 		 } 
 		System.out.println(); 
 		System.out.println("Lista de funcionários ");
