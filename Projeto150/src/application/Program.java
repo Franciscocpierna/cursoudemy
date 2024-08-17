@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Department;
+import entities.Departiment;
 import entities.HourContract;
 import entities.Worker;
 import entities.enums.WorkerLevel;
@@ -19,7 +19,7 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
-		System.out.print("Enter department's name: ");
+		System.out.print("Enter departiment's name: ");
 		String departmentName = sc.nextLine();
 		System.out.println("Enter worker data:");
 		System.out.print("Name: ");
@@ -28,7 +28,7 @@ public class Program {
 		String workerLevel = sc.nextLine();
 		System.out.print("Base salary: ");
 		double baseSalary = sc.nextDouble();
-		Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary, new Department(departmentName));
+		Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary, new Departiment(departmentName));
 
 		System.out.print("How many contracts to this worker? ");
 		int n = sc.nextInt();
@@ -57,7 +57,3 @@ public class Program {
 		sc.close();
 	}
 }
- 21 changes: 21 additions & 0 deletions21  
-src/entities/Department.java
-Original file line number	Original file line	Diff line number	Diff line change
-@@ -0,0 +1,21 @@
