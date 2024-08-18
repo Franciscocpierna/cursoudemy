@@ -5,11 +5,13 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
+import entities.Client;
+import entities.Order;
+import entities.OrderItem;
+import entities.Product;
+import entities.enums.OrderStatus;
 
-import entities.Departiment;
-import entities.HourContract;
-import entities.Worker;
-import entities.enums.WorkerLevel;
+
 
 public class Program {
 
@@ -18,17 +20,19 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-
-		System.out.print("Enter departiment's name: ");
-		String departmentName = sc.nextLine();
-		System.out.println("Enter worker data:");
-		System.out.print("Name: ");
-		String workerName = sc.nextLine();
-		System.out.print("Level: ");
-		String workerLevel = sc.nextLine();
-		System.out.print("Base salary: ");
-		double baseSalary = sc.nextDouble();
-		Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary, new Departiment(departmentName));
+		System.out.print("Dados do cliente: ");
+		System.out.print("nome: ");
+		String nome = sc.nextLine();
+		System.out.println("Email:");
+		String email = sc.nextLine();
+		System.out.print("Nascimento: ");
+		Date nascimento = sdf.parse(sc.next());
+		// Dados Pedido
+		System.out.print("Dados do Pedido: ");
+		System.out.print("Status: ");
+		String status = sc.nextLine();
+		
+		Order pedido = new Order(nascimento., OrderStatus.valueOf(status));
 
 		System.out.print("How many contracts to this worker? ");
 		int n = sc.nextInt();

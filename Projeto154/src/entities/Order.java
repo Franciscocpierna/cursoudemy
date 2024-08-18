@@ -14,11 +14,10 @@ public class Order {
 	public Order() {
 		// TODO Auto-generated constructor stub
 	}
-	public Order(Date moment, OrderStatus status, List<OrderItem> item) {
-		super();
+	public Order(Date moment, OrderStatus status) {
 		this.moment = moment;
 		this.status = status;
-		this.item = item;
+		
 	}
 	public Date getMoment() {
 		return moment;
@@ -32,16 +31,17 @@ public class Order {
 	public void setStatus(OrderStatus status) {
 		this.status = status;
 	}
-	public List<OrderItem> getItem() {
-		return itens;
-	}
-	public void addContract(OrderItem item) {
+	public void addItem(OrderItem item) {
 		itens.add(item);
 	}
 
-	public void removeContract(OrderItem item) {
+	public void removeItem(OrderItem item) {
 		itens.remove(item);
 	}
-	
-	
+	public Double total() {
+		double soma=0;
+		for (OrderItem c : itens) {
+		}
+		return soma;
+}       
 }

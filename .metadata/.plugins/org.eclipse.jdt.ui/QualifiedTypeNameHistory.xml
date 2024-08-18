@@ -18,12 +18,14 @@
     <fullyQualifiedTypeName name="java.text.ParseException"/>
     <fullyQualifiedTypeName name="java.util.TimeZone"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="entities.Order"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="entities.HourContract"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="entities.Client"/>
     <fullyQualifiedTypeName name="entities.enums.OrderStatus"/>
+    <fullyQualifiedTypeName name="entities.Product"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="entities.Order"/>
     <fullyQualifiedTypeName name="entities.OrderItem"/>
 </qualifiedTypeNameHistroy>
