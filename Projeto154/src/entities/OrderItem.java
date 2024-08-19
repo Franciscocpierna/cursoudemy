@@ -2,37 +2,59 @@ package entities;
 
 
 
-
 public class OrderItem {
-	private int Quantity;
-	private double price;
+
+	private Integer quantity;
+	private Double price;
+
+	private Product product;
+
 	public OrderItem() {
-		// TODO Auto-generated constructor stub
 	}
-	
-	public OrderItem(int quantity, double price) {
-		Quantity = quantity;
+
+	public OrderItem(Integer quantity, Double price, Product product) {
+		this.quantity = quantity;
 		this.price = price;
+		this.product = product;
 	}
 
-	public int getQuantity() {
-		return Quantity;
+	public Integer getQuantity() {
+		return quantity;
 	}
 
-	public void setQuantity(int quantity) {
-		Quantity = quantity;
+	public void setQuantity(Integer quantity) {
+		this.quantity = quantity;
 	}
 
-	public double getPrice() {
+	public Double getPrice() {
 		return price;
 	}
 
-	public void setPrice(double price) {
+	public void setPrice(Double price) {
 		this.price = price;
 	}
-	
-	public void subTotal() {
-		
-		
+
+	public Product getProduct() {
+		return product;
+	}
+
+	public void setProduct(Product product) {
+		this.product = product;
+	}
+
+	public double subTotal() {
+		return price * quantity;
+	}	
+
+	@Override
+	public String toString() {
+		return getProduct().getName()
+				+ ", $"
+				+ String.format("%.2f", price)
+				+ ", Quantity: "
+				+ quantity
+				+ ", Subtotal: $"
+				+ String.format("%.2f", subTotal());
 	}
 }
+ 

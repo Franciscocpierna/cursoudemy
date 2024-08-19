@@ -1,29 +1,32 @@
 package entities;
 
 public class Product {
+
 	private String name;
-	private double price;
+	private Double price;
+
 	public Product() {
-		// TODO Auto-generated constructor stub
 	}
-	public Product(String name, double price) {
+
+	public Product(String name, Double price) {
 		this.name = name;
 		this.price = price;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
-	public double getPrice() {
+
+	public Double getPrice() {
 		return price;
 	}
-	public void setPrice(double price) {
+
+	public void setPrice(Double price) {
 		this.price = price;
 	}
-	
-	
-	
-
 }
+ 
