@@ -4,24 +4,16 @@ public class Fisica extends Pessoa{
 	//String name; vem de Pessoa
 	//double renda; vem de Pessoa
     double gastosaude;
-	String cpf;
 	
 	
-	public Fisica(String name, Double renda, String cpf, double gastosaude) {
+	
+	public Fisica(String name, Double renda, double gastosaude) {
 		super(name, renda);
-		this.gastosaude=0;
-		this.cpf = cpf;
+		this.gastosaude=gastosaude;
+		
 	}
     
 
-	public String getCpf() {
-		return cpf;
-	}
-
-
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
 
 	public double getGastosaude() {
 		return gastosaude;
@@ -36,16 +28,16 @@ public class Fisica extends Pessoa{
 	public  double calcimposto() {
 		
 		if (this.getRenda() < 20000.00){
-			if(this.gastosaude>0) {
-				return (this.getRenda()-(this.getRenda()*15/100)) - (this.getGastosaude()-(this.getGastosaude()*50/100));
+			if(this.getGastosaude()>0) {
+				return (this.getRenda()*15/100) - (this.getGastosaude()*50/100);
 			}else {
-				return (this.getRenda()-(this.getRenda()*15/100));	
+				return this.getRenda()*15/100;	
 			}	
 		}else {
-			if(this.gastosaude>0) {
-				return (this.getRenda()-(this.getRenda()*25/100)) - (this.getGastosaude()-(this.getGastosaude()*50/100));
+			if(this.getGastosaude()>0) {
+				return (this.getRenda()*25/100) - (this.getGastosaude()*50/100);
 			}else {
-				return (this.getRenda()-(this.getRenda()*25/100)); 
+				return this.getRenda()*25/100; 
 			}
 				
 		}

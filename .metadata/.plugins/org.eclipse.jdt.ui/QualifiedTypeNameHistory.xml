@@ -32,10 +32,13 @@
     <fullyQualifiedTypeName name="entities.Account"/>
     <fullyQualifiedTypeName name="entities.enums.Color"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="entities.Pessoa"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="entities.Fisica"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="entities.Juridica"/>
+    <fullyQualifiedTypeName name="javax.xml.stream.util.EventReaderDelegate"/>
+    <fullyQualifiedTypeName name="entities.Pessoa"/>
 </qualifiedTypeNameHistroy>
