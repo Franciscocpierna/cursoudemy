@@ -30,6 +30,6 @@ public class Invoice {
 	}
 	
    public Double getTotalPayment() {
-	   return getBasicPaymenyt()-getTax();
+	   return getBasicPaymenyt()+getTax();
    }
 }
