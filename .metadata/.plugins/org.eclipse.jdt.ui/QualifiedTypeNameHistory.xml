@@ -48,11 +48,11 @@
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="model.entities.Vehicle"/>
     <fullyQualifiedTypeName name="model.entities.CarRental"/>
-    <fullyQualifiedTypeName name="model.entities.Invoice"/>
     <fullyQualifiedTypeName name="model.services.BrazilTaxService"/>
     <fullyQualifiedTypeName name="model.services.RentalService"/>
     <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="model.services.TaxService"/>
+    <fullyQualifiedTypeName name="model.entities.Invoice"/>
 </qualifiedTypeNameHistroy>

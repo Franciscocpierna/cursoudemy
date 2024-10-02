@@ -29,8 +29,9 @@ public class RentalService {
        }
        
        double tax = taxService.tax(basicPayment);
-       
-       carRental.setInvoice(new Invoice(basicPayment,tax));
+       Invoice invoice = new Invoice(basicPayment,tax);
+       carRental.setInvoice(invoice);
+       //carRental.setInvoice(new Invoice(basicPayment,tax)); ou esse os duas linhas acima
     }
     
 	}
