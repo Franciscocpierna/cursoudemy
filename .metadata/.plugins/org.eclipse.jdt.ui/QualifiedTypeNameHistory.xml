@@ -55,4 +55,5 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="model.services.TaxService"/>
     <fullyQualifiedTypeName name="model.entities.Invoice"/>
+    <fullyQualifiedTypeName name="model.enums.Color"/>
 </qualifiedTypeNameHistroy>
