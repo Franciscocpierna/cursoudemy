@@ -50,9 +50,9 @@ INDEX VERSION 1.131+C:\java_projeto\jdk_1502\cursoudemy\.metadata\.plugins\org.e
 900375649.index
 1844626694.index
 985503616.index
-2740675604.index
-1468807591.index
 321393921.index
+1468807591.index
+2740675604.index
 3456135334.index
 2836373012.index
 2749113694.index
@@ -73,14 +73,12 @@ INDEX VERSION 1.131+C:\java_projeto\jdk_1502\cursoudemy\.metadata\.plugins\org.e
 1229739973.index
 4173788092.index
 2110599186.index
-18355036.index
 1609333419.index
 281441285.index
 4016297071.index
 3092395947.index
 4147187438.index
 757789469.index
-2787183750.index
 2741318613.index
 3919864406.index
 3379410111.index
